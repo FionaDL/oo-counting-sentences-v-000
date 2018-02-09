@@ -17,6 +17,5 @@ class String
   def count_sentences
       broken_string = self.split(/[.?!]/)
       broken_string.count
-      
   end
 end
